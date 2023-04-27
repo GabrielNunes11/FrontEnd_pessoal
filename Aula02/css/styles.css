@@ -1,5 +1,5 @@
 body {
-  background-image: url(../assets/images/um-astronauta-no-espaco-com-um-planeta-ao-fundo.jpg);
+  background-image: url(/Aula02/assets/images/um-astronauta-no-espaco-com-um-planeta-ao-fundo.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: -80px;
@@ -22,7 +22,7 @@ p {
     color: red;
     background-color: blue;
 }
-.segundo-id{
+#segundo-id{
     color: bisque;
     background-color: brown;
 }
