@@ -1,0 +1,28 @@
+body {
+  background-image: url(../assets/images/um-astronauta-no-espaco-com-um-planeta-ao-fundo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -80px;
+}
+h1 {
+  color: aliceblue;
+  background-color: black;
+  text-align: center;
+  margin-top: -10px;
+  border-color: whitesmoke;
+  border-bottom-style: groove;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+p {
+  color: aliceblue;
+  text-align: center;
+}
+.primeiro-id{
+    color: red;
+    background-color: blue;
+}
+.segundo-id{
+    color: bisque;
+    background-color: brown;
+}
