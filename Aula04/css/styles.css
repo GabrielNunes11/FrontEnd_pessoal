@@ -1,0 +1,92 @@
+h1{
+    color: red;
+}
+
+/* SM */
+@media(min-width: 576px){
+    h1{
+        color: yellow;
+    }
+}
+
+/* MD */
+@media(min-width: 768px){
+    h1{
+        color: blue;
+    }
+}
+
+/* LG */
+@media(min-width: 992px){
+    h1{
+        color: aqua;
+    }
+}
+
+/* X1 */
+@media(min-width: 1200px){
+    h1{
+        color: purple;
+    }
+}
+
+/* XX1 */
+@media(min-width: 1400px){
+    h1{
+        color: orangered;
+    }
+}
+
+.meu-botao{
+    background-color: wheat;
+    color: brown;
+}
+
+/* .container, .container-fluid{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+} */
+
+.container{
+    border: 5px dotted blue;
+    padding: 10px;
+}
+
+.row{
+    border: 5px solid purple;
+    margin: 0;
+    padding: 10px;
+}
+
+.col, .col3{
+    border: 2px dashed blue;
+}
+
+.col2, .col4{
+    border: 2px dashed red;
+}
+
+.display-flex{
+    display: flex;
+    height: 200px;
+    width: 100%;
+    background-color: grey;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.minha-div{
+    height: 100px;
+    width: 200px;
+    background-color: bisque;
+    border: 1px solid blue;
+    text-align: center;
+    font-size: 30px;
+}
+
+.self{
+    align-self: center;
+}

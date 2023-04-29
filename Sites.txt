@@ -9,3 +9,6 @@ https://blog.hubspot.com/website/css-animation-examples
 
 Conversor
 https://convertio.co/pt/
+
+CSS Reset
+https://meyerweb.com/eric/tools/css/reset/
