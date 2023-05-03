@@ -5,10 +5,10 @@ body {
 }
 
 .topo {
-  width: 600px;
-  height: 600px;
+  width: 50%;
+  height: 602px;
   border-radius: 35px;
-  margin: 25px auto;
+  margin: 10px auto;
   box-shadow: 7px 10px 30px 0px rgba(0, 0, 0, 0.66);
   background-color: #e6e7e4;
 }
@@ -42,9 +42,10 @@ body {
 
 .navegacao {
   display: flex;
-  width: 590px;
-  height: 40px;
-  margin-left: 7.5px;
+  width: 624px;
+  height: 6%;
+  margin-left: 6px;
+  margin-right: 6px;
 }
 
 .barra {
@@ -58,15 +59,14 @@ body {
   flex: 4;
 }
 
-.container {
+.barra-botoes {
   background-color: white;
-  width: 100%;
-  height: 460px;
+  width: auto;
   margin-top: 5px;
-  border: #e6e7e4;
-  border-style: solid;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: 6px;
+  margin-right: 6px;
 }
 
 .botoes {
@@ -86,16 +86,33 @@ body {
   background: #02a4d3;
 }
 
+.container {
+  background-color: white;
+  width: auto;
+  height: 440px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 30px;
+  margin-left: 6px;
+  margin-right: 6px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.lado-esq {
+  width: 265px;
+}
+
 .imagem-cinza {
+  display: flex;
   background: #e6e7e4;
-  width: 325px;
-  height: 170px;
-  margin-top: 30px;
+  width: 355px;
+  height: 160px;
 }
 
 .botoesazuis {
   display: flex;
-  width: 330px;
+  width: 360px;
 }
 
 .bot-azul {
@@ -107,24 +124,31 @@ body {
 }
 
 .linha {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .linha-cinza {
   background: #e6e7e4;
   height: 5px;
-  width: 325px;
-  margin-top: 15px;
+  width: 355px;
+  margin-top: 6%;
 }
 
-.footer {
-  background: white;
-  width: 100%;
-  height: 50px;
-  margin-top: -5px;
-  border: #e6e7e4;
-  border-style: solid;
-  border-top-style: none;
-  border-bottom-left-radius: 35px;
-  border-bottom-right-radius: 35px;
+.lado-dir {
+  margin-left: 398px;
+  margin-top: -400px;
+}
+
+.lateral-imagem {
+  background: #e6e7e4;
+  width: 136px;
+  height: 60px;
+  margin-top: 22px;
+}
+
+.lateral-linha {
+  background: #e6e7e4;
+  width: 136px;
+  height: 7px;
+  margin-top: 11px;
 }
