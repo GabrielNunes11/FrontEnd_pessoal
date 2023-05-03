@@ -83,3 +83,23 @@
     text-decoration: none;
     font-size: 20px;
 }
+
+.tabela_jogos {
+    display: inline-block;
+}
+
+.midnight_foto {
+    width: 25%;
+}
+
+.pga_foto {
+    width: 25%;
+}
+
+.nba_foto {
+    width: 25%;
+}
+
+.border_foto {
+    width: 25%;
+}

@@ -1,0 +1,55 @@
+body {
+    background-image: linear-gradient(to bottom right, #2e91ef, #6164e5);
+}
+
+.topbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+    list-style-type: none;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.home {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-style: solid;
+    border-color: #01a4d4;
+    background-color: #01a4d4;
+    border-left-width: 50px;
+    border-right-width: 50px;
+}
+
+.sobre, .fotos, .parceiros, .contato, .ajuda {
+    text-decoration: none;
+    font-size: 20px;
+    color: grey;
+    border-style: solid;
+    border-color: #E6E6E6;
+    background-color: #E6E6E6;
+    border-left-width: 50px;
+    border-right-width: 50px;
+    margin-left: 10px;
+}
+
+.fundo {
+    width: 155%;
+    display: flex;
+    margin-top: 60px;
+    margin-left: 135px;
+}
+
+.cartao {
+    width: 60%;
+    display: inline;
+    margin-left: 935px;
+    margin-top: -2050px;
+}
+
+.legenda_um {
+    margin-top: -800px;
+    margin-left: 900px;
+}
