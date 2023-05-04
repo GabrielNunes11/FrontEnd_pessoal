@@ -2,30 +2,31 @@ body {
   background-image: linear-gradient(to bottom right, #01bdfd, #8e38d9);
   background-repeat: no-repeat;
   background-size: contain;
+  height: 100vh;
 }
 
 .topo {
-  width: 50%;
-  height: 602px;
-  border-radius: 35px;
-  margin: 10px auto;
+  width: 50vw;
+  height: 95vh;
+  border-radius: 3vw;
+  margin: 2vh auto;
   box-shadow: 7px 10px 30px 0px rgba(0, 0, 0, 0.66);
   background-color: #e6e7e4;
 }
 
 .bolas {
   display: flex;
-  width: 100%;
-  height: 50px;
-  margin-left: 20px;
+  width: 10vw;
+  height: 8vh;
+  margin-left: 1.5vw;
 }
 
 .bola {
   border-radius: 100%;
-  width: 20px;
-  height: 20px;
-  margin-top: 15px;
-  margin-right: 10px;
+  width: 1vw;
+  height: 3vh;
+  margin-top: 3vh;
+  margin-right: 0.5vw;
 }
 
 .bola-1 {
@@ -42,43 +43,44 @@ body {
 
 .navegacao {
   display: flex;
-  width: 624px;
-  height: 6%;
-  margin-left: 6px;
-  margin-right: 6px;
+  width: auto;
+  height: 5.5vh;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
 }
 
 .barra {
   background: white;
   flex: 1;
-  border-radius: 3px;
-  margin-right: 5px;
+  border-radius: 0.25vw;
 }
 
 .maior {
   flex: 4;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
 }
 
 .barra-botoes {
   background-color: white;
-  width: auto;
-  margin-top: 5px;
-  padding-left: 40px;
-  padding-right: 40px;
-  margin-left: 6px;
-  margin-right: 6px;
+  margin-top: 1vh;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
 }
 
 .botoes {
   display: flex;
-  width: 100%;
+  width: 43vw;
 }
 
 .botao {
   background: #e6e7e4;
-  height: 35px;
-  margin-top: 30px;
-  margin-right: 5px;
+  height: 5vh;
+  margin-top: 5vh;
+  margin-right: 0.25vw;
+  margin-left: 0.25vw;
   flex: 1;
 }
 
@@ -89,66 +91,67 @@ body {
 .container {
   background-color: white;
   width: auto;
-  height: 440px;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 30px;
-  margin-left: 6px;
-  margin-right: 6px;
-  border-bottom-left-radius: 30px;
-  border-bottom-right-radius: 30px;
+  height: 69.5vh;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-top: 5vh;
+  margin-left: 0.5vw;
+  margin-right: 0.5vw;
+  border-bottom-left-radius: 3vw;
+  border-bottom-right-radius: 3vw;
 }
 
 .lado-esq {
-  width: 265px;
+  width: 22vw;
 }
 
 .imagem-cinza {
   display: flex;
   background: #e6e7e4;
-  width: 355px;
-  height: 160px;
+  width: 28.1vw;
+  height: 27.5vh;
+  margin-left: 0.25vw;
 }
 
 .botoesazuis {
   display: flex;
-  width: 360px;
+  width: 28.6vw;
 }
 
 .bot-azul {
   background: #02a4d3;
-  height: 30px;
-  margin-top: 30px;
-  margin-right: 5px;
+  height: 4.5vh;
+  margin-top: 4vh;
+  margin-left: 0.25vw;
+  margin-right: 0.25vw;
   flex: 1;
-}
-
-.linha {
-  margin-top: 30px;
+  margin-bottom: 1vh;
 }
 
 .linha-cinza {
   background: #e6e7e4;
-  height: 5px;
-  width: 355px;
-  margin-top: 6%;
+  height: 1vh;
+  width: 28.1vw;
+  margin-top: 2.5vh;
+  margin-left: 0.25vw;
+  margin-right: 0.25vw;
 }
 
 .lado-dir {
-  margin-left: 398px;
-  margin-top: -400px;
+  margin-left: 32.75vw;
+  margin-top: -65vh;
 }
 
 .lateral-imagem {
   background: #e6e7e4;
-  width: 136px;
-  height: 60px;
-  margin-top: 22px;
+  width: 10vw;
+  height: 10.5vh;
+  margin-top: 3.3vh;
 }
 
 .lateral-linha {
   background: #e6e7e4;
-  width: 136px;
-  height: 7px;
-  margin-top: 11px;
+  width: 10vw;
+  height: 1vh;
+  margin-top: 1.5vh;
 }
