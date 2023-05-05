@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+#msg-erro {
+    margin: 0;
+    font-size: 8px;
+    color: rgb(229, 31, 31);
+    font-style: italic;
+    display: none;
+}
